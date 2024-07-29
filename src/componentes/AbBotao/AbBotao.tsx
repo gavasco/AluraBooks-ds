@@ -21,7 +21,7 @@ const Button = styled.button<AbBotaoProps>` //especificar que button pode recebe
     }
 `
 
-export function AbBotao ({ texto, tipo = 'primario', onClick }: AbBotaoProps) {
+export default function AbBotao ({ texto, tipo = 'primario', onClick }: AbBotaoProps) {
     return (
         <Button
             tipo={tipo}
